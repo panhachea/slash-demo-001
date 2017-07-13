@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin:0px;
+
+    font-family:Roboto Condensed,serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #373a3c;
+}
+
+.Container_header{/* contain of top*/
+    width:100%;
+    height:500px;
+    position:relative;
+    top:0;
+    left:0;
+}
+.BackgroundImg{/* image background  of top */
+    width:100%;
+    height:500px;
+}
+.NavigationBar{
+    width:100%;
+    height:70px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.logo{/* div for logo side*/
+    width:30%;
+    height:70px;
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left:20px;
+}
+.logo span{/* make logo style*/
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    padding-top:0px;
+    padding-bottom:0px;
+    position:relative;
+    top:20px;
+    margin-left:-5px;
+    border-radius:5px;
+    border:inset 1px;
+    border-right:none;
+}
+.logo p{
+    font-size:11px;
+    color:white;
+    margin-top:20px;
+}
+.NavigationList{/* div for navigation list style*/
+    width:60%;
+    height:70px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+/* style for make navigation*/
+
+.NavigationList ul{
+    font-weight:bold;
+    list-style:none;
+}
+.NavigationList ul li{
+    display:inline-block;
+    padding-left:20px;
+}
+.NavigationList ul li a{
+    text-decoration:none;
+    color:white;
+}
+.NavigationList ul li a:hover{
+    color:#DFD10F;
+}
+/* style for Introduction in center of header*/
+.intro_INHeader{
+    width:70%;
+    height:100px;
+    background-color:rgba(0,0,0,0.54);
+    position:absolute;
+    top:250px;
+    left:10%;
+    text-align:center;
+}
+.intro_INHeader p{
+    color:white;
+    text-indent:20px;
+}
+/* style for button in header*/
+.Button_head{
+    position:absolute;
+    top:400px;
+    left:40%;
+    background-color:#DFD10F;
+    padding:10px;
+    border:none;
+    font-weight:bold;
+
+}
+.Button_head:hover{
+    opacity:0.7;
+    color:white;
+}
+.About_Container{/* div style contain full about*/
+    width:100%;
+    height:700px;
+    background-color:rgba(188,184,184,0.15);
+    padding-top:20px;
+}
+.About_text{/* div contain only text of about */
+    margin-left:40px;
+    width:90%;
+    height:350px;
+
+}
+/* title*/
+.About_text h2{
+    margin:0px;
+    display:inline;
+}
+h2.yellow{
+    color:#DFD10F;
+}
+/* image contain*/
+.About_ContainImg{
+    margin-left:40px;
+    width:90%;
+    height:300px;
+    background-color:#4BBFAB;
+    margin-top:30px;
+    position:absolute;
+}
+.About_ContainImg img{
+    width:100%;
+    height:300px;
+}
+/* div contain full product*/
+.Product_container{
+    width:100%;
+    height:1620px;
+}
+.Product_title{
+    width:100%;
+    height:80px;
+    text-align:center;
+}
+.Product_title h3{
+    font-weight:bold;
+    color:#DFD10F;
+    padding:5px;
+    border-bottom:#DFD10F 1px groove;
+    display:inline-block;
+}
+/* div contain image with description in Product &service */
+.Produc_ContainImgAndDes{
+    position:relative;
+    width:90%;
+    height:350px;
+    margin-left:70px;
+    margin-top:30px;
+}
+.Produc_ContainImgAndDes hr{
+    width:10%;
+    position:absolute;
+    bottom:5%;
+    margin:auto;
+    margin-left:45%;
+
+}
+
+.Product_img{/*div contain only img */
+    float:right;
+    width:40%;
+    height:300px;
+}
+.Product_img img{
+    margin-left:24px;
+    width:95%;
+    height:300px;
+}
+.Product_Des{/* contain only description */
+    float:left;
+    width:60%;
+    height:300px;
+}
+.Product_Des h4{
+    color:#16AC92;
+    margin:0px;
+}
+
+/* contain image at bottom*/
+
+.bottoom_img{
+    widows:100%;
+    height:350px;
+    margin-top:10px;
+    position:relative;
+}
+.bottoom_img img{
+    width:100%;
+    height:300px;
+    position:absolute;
+    filter:blur(2px);
+}
+.MoreOnBtn{/* it take style more on style of button in header*/
+    top:200px;
+}
+.MoreOnIntro{
+    top:100px;
+    background-color:transparent;
+}
+/* follow us div*/
+.FollowUs_contain{
+    width:100%;
+    height:200px;
+    color:#DFD10F;
+}
+.contain_socialMedia{/* contain social media button*/
+    width:50%;
+    height:100px;
+    margin-left:35%;
+}
+/* style social media from w3school*/
+.fa {
+    padding: 25px 20px;
+    font-size:30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+/* style for make navigation at bottom*/
+.atBottom{
+    position:relative;
+    background-color:#DFD10F;
+    text-align:center;
+    color:#2B2626;
+}
+.atBottom ul{
+    font-weight:bold;
+    list-style:none;
+}
+.atBottom ul li{
+    margin-top:30px;
+    display:inline-block;
+    padding-left:40px;
+}
+.atBottom ul li a{
+    text-decoration:none;
+    color:#2B2626;
+}
+.atBottom ul li a:hover{
+    color:white;
+}
+.atBottom p{
+    margin-top:80px;
+}
