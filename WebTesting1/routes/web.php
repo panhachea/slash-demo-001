@@ -23,3 +23,8 @@ Route::get('/home', function () {
 Route::get('/template', function () {
     return view('Myproject.template');
 });
+
+
+Route::get('/template2', function () {
+    return view('Myproject.template2');
+});

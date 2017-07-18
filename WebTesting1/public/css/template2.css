@@ -1,4 +1,4 @@
-.container{
+.Container{
     width:100%;
     height:4000px;
     margin: auto;
@@ -7,33 +7,34 @@
 
 
 
-   }
 
-.header{
+}
+
+.Header{
     width:100%;
     height:1800px;
 
 
 }
-.top_header{
-            width: 100%;
-            height:112px;
-            margin-top:-10px;
-            position: fixed;
-            z-index: 100;
+.Top_header{
+    width: 100%;
+    height:112px;
+    margin-top:-10px;
+    position: fixed;
+    z-index: 100;
 }
-.top_left{
-          float: left;
-           width: 50%;
-           height:88.6%;
-           background-color:white;
+.Top_left{
+    float: left;
+    width: 50%;
+    height:88.6%;
+    background-color:white;
 
 
 
 }
 
 
-.logo{
+.Logo{
     margin-top:4px;
     padding:5px;
     color:white;
@@ -41,11 +42,11 @@
 }
 
 .symbol{
-        width:180px;
-        height:55px;
-        padding:10px;
-        margin-top:-2px;
-        margin-bottom:20px;
+    width:180px;
+    height:55px;
+    padding:10px;
+    margin-top:6px;
+    margin-bottom:20px;
 
 
 }
@@ -80,10 +81,10 @@
 
 }*/
 
-.top_right{
-          float:right;
-          width:50%;
-          height:100%;
+.Top_right{
+    float:right;
+    width:50%;
+    height:100%;
 
 
 
@@ -96,7 +97,7 @@
     position:absolute;
     top:0px;
     right:0;
-    background-color:#DFD10F;
+    background-color:#ffcc00;
     margin-right:0px;
 
 }
@@ -109,7 +110,7 @@
     right:100%;
     border-width:50px;
     border-style: solid;
-    border-color:transparent  #DFD10F #DFD10F transparent;
+    border-color:transparent #ffcc00 #ffcc00 transparent;
 }
 
 
@@ -126,7 +127,7 @@
     font-size:13px;
     font-style:	normal;
     color:white;
-     margin-right:23px;
+    margin-right:23px;
 
     /*https://www.youtube.com/watch?v=47QSujKvQ-Q
     http://yellowlg.demo.flexitech.io/#/about-us*/
@@ -134,11 +135,11 @@
 
 
 .navis ul li a{
-               text-decoration: none;
-               color:white;
-              font-family: Roboto Condensed, serif;
-              margin-right:10px;
-              font-size:14.5px;
+    text-decoration: none;
+    color:white;
+    font-family: Roboto Condensed, serif;
+    margin-right:10px;
+    font-size:14.5px;
 }
 
 
@@ -208,7 +209,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+   background-color: rgba(0,0,0,0.8);
 }
 .button-head{
     position:absolute;
@@ -231,12 +232,12 @@
 
 
 .sub_bg_img{
-           height:130px;
-           width:70%;
-           background-color:rgba(0,0,0,0.54);
-           margin-top: -35%;
-           margin-left:18%;
-           position:relative;
+    height:130px;
+    width:70%;
+    background-color:rgba(0,0,0,0.54);
+    margin-top: -35%;
+    margin-left:18%;
+    position:relative;
 
 
 
@@ -254,7 +255,7 @@
     position: inherit;
 
 
- }
+}
 .btn{
     margin-left:350px;
     width:200px;
@@ -306,24 +307,24 @@
 }
 
 .letter .about{
-      color:black;
-      font-size: 25px;
+    color:black;
+    font-size: 25px;
     font-family: Roboto Condensed, serif;
 }
 .t_about{
     font-size:18px;}
 
 .last_header_img{
-                 width: 90%;
-                 height:570px;
-                 margin-left:55px;
-                  margin-top:40px;
+    width: 90%;
+    height:570px;
+    margin-left:55px;
+    margin-top:40px;
 }
 .last_header_img .last_pic{
-                        width:100%;
-                        height:100%;
-                        background-repeat: no-repeat;
-                        background-size: cover;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -347,7 +348,7 @@
 
 
 }*/
-.body{
+.Body{
     width:90%;
     margin-left:55px;
     height: 1300px;
@@ -359,10 +360,10 @@
 
 }
 .body .title{
-              color:orange;
-              text-align: center;
-               font-size:30px;
-              font-family: Roboto Condensed, serif;
+    color:orange;
+    text-align: center;
+    font-size:30px;
+    font-family: Roboto Condensed, serif;
 
 
 
@@ -382,7 +383,7 @@ hr{
     width:14%;
     margin-top:-16px;
 
-   }
+}
 .first_title{
     width: 100%;
     height:220px;
@@ -392,9 +393,9 @@ hr{
 }
 
 .text_left{
-          float:left;
-          width:60%;
-          height:200px;
+    float:left;
+    width:60%;
+    height:200px;
 
 }
 
@@ -494,21 +495,21 @@ h3{
     font-family:"Times New Roman";
     margin-bottom: 20px;}
 
-.footer{
-      width:100%;
-      height:820px;
-      clear: both;
-      position:inherit;
-      margin-top:1%;
+.Footer{
+    width:100%;
+    height:820px;
+    clear: both;
+    position:inherit;
+    margin-top:1%;
 
 
 
 }
 .last_bg{
-        width:100%;
-        height: 400px;
-        background-size: cover;
-        background-repeat:no-repeat;
+    width:100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat:no-repeat;
 
 
 
@@ -523,7 +524,7 @@ h3{
     margin-left:140px;
 }
 .bg_text{
-     color:white;
+    color:white;
     font-family: Roboto Condensed, serif;
     text-align: center;
     font-size:20px;
@@ -544,14 +545,36 @@ h3{
 
 }
 .socailimg{
-           margin-top:100px;
-           width: 100%;
-           height: 300px;
+    margin-top:100px;
+    width: 100%;
+    height: 300px;
 }
 .follow{
 
-        width: 100%;
-        height: 325px;
+    margin-top: 160px;
+    font-size: 30px;
+    font-family: Roboto Condensed, serif;
+    color: #ffcc00;
+    margin-left:40%;
+
+}
+
+.facebook{
+    width:40px;
+    height:40px;
+    margin-left:410px;
+}
+.line_media{
+    background-color:#ffcc00;
+    width: 170px;
+    margin-left:520px;
+    height: 1px;
+    margin-top:-20px;
+}
+.instragram,.twitter,.google,.youtube{
+    width: 40px;
+    height:40px;
+    margin-left:50px;
 }
 
 .end{
@@ -566,12 +589,12 @@ h3{
     margin-right: 300px;
 }
 ul li{
-     float: right;
-     margin-right:30px;
-     margin-top:40px;
-     color:grey;
-     font-family: Roboto Condensed, serif;
-     font-size:20px;
+    float: right;
+    margin-right:30px;
+    margin-top:40px;
+    color:grey;
+    font-family: Roboto Condensed, serif;
+    font-size:20px;
 
 }
 
@@ -581,6 +604,7 @@ ul li{
 
 
 }
+/* to make a gradient line*/
 
 .middle_line{
     margin-top: -7%;
@@ -589,7 +613,7 @@ ul li{
     width:300px;
     border: none;
     height:1px;
-    
+
 
 
 }

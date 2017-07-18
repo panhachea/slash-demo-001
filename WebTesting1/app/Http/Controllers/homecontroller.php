@@ -24,4 +24,9 @@ class homecontroller extends Controller
     {
         return view('Myproject.template');
     }
+
+    public function Mytemplate2()
+    {
+        return view('Myproject.template2');
+    }
 }
