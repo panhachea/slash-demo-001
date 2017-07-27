@@ -1,1 +1,5 @@
-hello
+to push and change git
+step1 :$git add directary  
+step2: $git add -A
+step3: $git commit -m ""
+step4: $git push -u origin master 
