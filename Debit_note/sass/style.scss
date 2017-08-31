@@ -1,0 +1,14 @@
+
+
+$bg=red;
+$font:"Kh Battambang";
+
+body{
+  background: $bg;
+  font-family: $font;
+}
+
+p{
+  font-family: $font;
+  background: $bg;
+}

@@ -1,0 +1,12 @@
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn{ background: #333; color: #fff; margin-left: 5px; padding: 6px 20px;}
+.btn:hover{ background: #000; color: #fff; }
+.btn:focus{ background: #000; color: #fff; outline:none !important;}
+.error{
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
