@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEBIT NOTE</title>
+
+    <style>
+        .page{
+            width:  794px;
+            margin: 0 auto;
+            height: 1123px;
+
+        }
+        .header{
+            width: 100%;
+            height: 196px;
+
+        }
+        .body{
+            width: 100%;
+            height: 809px;
+
+
+            clear: both;
+            margin-top:10px;
+        }
+
+        .debit_note{
+            width: 100%;
+            height: 60px;
+
+        }
+        p{
+            font-size:30px;
+            margin-top:-43px;
+            margin-left: 280px;
+
+        }
+        .name,.address{
+            margin-left:40px;
+            font-size: 12px;
+            position: absolute;
+
+
+        }
+        .invoice{
+
+            float:right;
+            margin-left: 440px;
+
+
+
+        }
+        .inv_dat{
+            float:right;
+            margin-right:2px;
+            font-size: 12px;
+
+
+
+        }
+        label{
+            margin-left:40px;
+            font-size: 12px;
+
+        }
+        .date{
+            float: left;
+            margin-left:-6px;
+            font-size: 12px;
+        }
+        .num{
+            margin-left:-1px;
+            font-size: 12px;
+            padding-top:20px;
+
+
+
+
+        }
+        .sub_table{
+            width:92%;
+            height: auto;
+            margin-top: 10px;
+            margin-left: 40px;
+        }
+        .sub_table  tr td{
+            border: 1px solid gainsboro;
+        }
+        .sub_table tr th{
+            border: 1px solid gainsboro;
+        }
+
+        .if_text{
+            font-size:13px;
+            margin-left: 65px;
+            position:absolute;
+            margin-top: -7px;
+
+
+
+        }
+
+
+        .if_texts{
+            font-size:13px;
+            margin-left: 71px;
+            margin-top:5px;
+
+
+        }
+
+
+        .footer{
+            width: 100%;
+            height:118px;
+
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="page">
+
+    <div class="header">
+        <img src="../../../public/img/company.png" width="100%" height="100%">
+
+    </div>
+
+    <div class="body">
+        <p>REIMBURSEMENT</p>
+
+        <table   class="debit_note" >
+
+            <tr>
+                <td><label class="name">Mr.CHHAY</label> </td>
+                <td></td>
+                <td></td>
+                <td ><label class="inv_dat">Invoice Date &nbsp;</label></td>
+                <td ><label class="date" style="margin-right:35px;">25-May-2017</label></td>
+
+
+            </tr>
+
+
+            <tr>
+                <td colspan="6"><label class="address">Address:</label> </td>
+
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td></td>
+                <td></td>
+                <td><label class="invoice">Invoice:</label></td>
+                <td><label class="num">T-1705112</label></td>
+
+
+            </tr>
+
+
+            <tr>
+                <td colspan="6"><label>BL</label> </td>
+
+            </tr>
+
+
+            <tr>
+                <td colspan="6"><label>CN</label> </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="6"><label>IV</label> </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="6"><label>DATE</label> </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="6"><label>COMMODITY</label> </td>
+
+            </tr>
+
+        </table>
+
+        <table class="sub_table" style="border:1px solid gainsboro; " cellspacing="0" cellpadding="5">
+            <tr>
+                <th><label style="font-size: 14px;">Description</label></th>
+                <th><label style="margin-left:-3px;font-size: 14px;">Qty</label></th>
+                <th><label style="margin-left:1px;font-size: 14px;">Rate</label></th>
+                <th><label style="margin-left:-2px;font-size: 14px;">Amount</label></th>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 400px;font-size:13px;">Customer Brokerage Service
+                <br><img src="../../../public/img/logo_water_mark.png" style="margin-left:175px;position: absolute;width:400px;opacity:0.2;
+                  "></td>
+                <td></td>
+                <td style="padding-bottom: 400px;"><font style="float: right;">10.00</font></td>
+                <td style="padding-bottom: 400px;"><font style="float: right;">10.00</font></td>
+
+            </tr>
+
+            <tr>
+                <td  colspan="3" ></td>
+                <td style="text-align: center;">$10.00</td>
+
+            </tr>
+
+
+        </table>
+    </div>
+
+    <div class="footer">
+        <table width="93%" style="margin-left:30px;margin-top:-70px;"   >
+            <tr>
+                <th width="30%"><label style="margin-left:-1px;">ACCOUNT DEPARTMENT</label></th>
+
+                <th width="50%"><label style="margin-left:-190px;">Remark</label></th>
+                <th ><label style="float:right;margin-right:20px;">25-May-2017</label></th>
+            </tr>
+            <tr>
+
+                <td s></td>
+                <td colspan="2"><label class="if_text" >
+                    +If you note any discrepancies,please advice to account department within 7days</label></td>
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><label class="if_texts">
+                    form the date of receiving,otherwise the above amount considered as correct.
+                </label></td>
+
+            </tr>
+        </table>
+
+    </div>
+</div>
+
+</body>
+</html>

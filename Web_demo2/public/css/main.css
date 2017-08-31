@@ -1,0 +1,413 @@
+body{
+    margin: 0;
+    /*font-size: 14px;*/
+    font-size: 17px;
+    font-family: Roboto Condensed, serif;
+}
+
+/*design navbar*/
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+
+}
+.navbar{
+    top:0;
+    background-color: white;
+    width: 100%;
+}
+/*navigation bar border style tret*/
+#myList > a::after{
+    /*margin-top: -20px;*/
+    /*margin-right: 1px;*/
+    position: absolute;
+    top: -2px;
+    right: 100%;
+    content: '';
+    border-width: 46px;
+    border-style: solid;
+    border-color: transparent #ffcc00 #ffcc00 transparent;
+}
+
+.navbar ul li a{
+    color: white;
+    display: inline-table;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: inherit;
+    text-decoration: none;
+}
+.navbar ul li a:focus{
+    background-color: inherit;
+}
+/*active navbar with border bottom a*/
+.nav-item>a.navbar-link.active::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.logo{
+    position: absolute;
+    top: 7px;
+    left: 30px;
+}
+/*responsive navbar for ipad*/
+@media screen and (min-width: 768px) {
+    .navbar ul li a {
+        height: 90px;
+        line-height: 50px;
+        margin-right: 10px;
+        font-size: 9px;
+    }
+    .logo img{
+        width: 70px;
+        height: 40px;
+    }
+    .logo p{
+        font-size: 10px;
+        margin-top: 5px;
+        color: #0099ff;
+    }
+}
+
+/*reponsive navbar for ipad pro and computer*/
+@media screen and (min-width: 1024px) {
+    .navbar ul li a {
+        height: 90px;
+        line-height: 50px;
+        margin-right: 20px;
+        font-size: 13px;
+    }
+    .logo img{
+        width: 110px;
+        height: 50px;
+    }
+    .logo p{
+        font-size: 12px;
+        margin-top: 5px;
+        color: #0099ff;
+    }
+}
+
+/*reponsive  navbar for type phone */
+@media screen and (max-width: 415px) {
+    .navbar ul li a {
+        height: 30px;
+        line-height: 15px;
+        /*margin-right: 30px;*/
+        font-size: 12px;
+    }
+    .logo img {
+        width: 90px;
+        height: 30px;
+    }
+
+    .logo p{
+        margin-top: 0;
+        font-size: 7px;
+        color: #0099ff;
+    }
+
+}
+
+/*animation design*/
+.animation{
+    position: relative;
+}
+.carousel-indicators li {
+    position: relative;
+    flex: 1 0 auto;
+    width: 30px;
+    max-width: 30px;
+    height: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.5);
+    border: none;
+    margin: 0 1px;
+}
+.carousel-indicators li.active{
+    width: 30px;
+    max-width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+}
+.carousel-indicators {
+    bottom: 0;
+}
+.page-description{
+    position: absolute;
+    top: 30%;
+}
+/*responsive animation slide for ipad pro and computer*/
+@media screen and (min-width: 768px) {
+    .slideCarousel{
+        margin-top: 90px;
+    }
+    .page-description p {
+        font-size: 1.3em;
+        width: 80%;
+        margin-left: 10%;
+        background-color: rgba(51,51,51,.49);
+        color: #fff;
+        padding: 20px 10px;
+    }
+}
+/*reponsive for slide in smart phone*/
+@media screen and (max-width: 415px) {
+    .slideCarousel{
+        margin-top: 50px;
+    }
+
+    .page-description p {
+        font-size: .8em;
+        width: 90%;
+        margin-left: 5%;
+        background-color: rgba(51,51,51,.49);
+        color: #fff;
+        /*padding: 20px 10px;*/
+    }
+
+}
+.btnQuoteRequest{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+.aboutDescription{
+    width: 90%;
+    margin: 0 auto;
+}
+.aboutDescription p{
+    font-size: 16px;
+}
+.aboutImage{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90% ;
+    margin: 0 auto;
+    position: relative;
+}
+.aboutImage img{
+    width: 100%;
+    /*height: 150px;*/
+}
+/*reponsive image about for ipad-pro and computer*/
+@media screen and (min-width: 768px) {
+    .aboutImage img{
+        height: 390px;
+    }
+    .btnFooter{
+        left: 45%;
+        top: 290px;
+    }
+}
+/*reponsive image about for phone type*/
+@media screen and (max-width: 415px) {
+    .aboutImage img{
+        height: 130px;
+    }
+    .btnFooter{
+        left: 35%;
+        top: 220px;
+    }
+}
+.product-service h3{
+    margin-top: 50px;
+    color: #ffcc00;
+    text-align: center;
+}
+.product-service hr{
+    margin-bottom: 40px;
+    text-align: center;
+    width: 150px;
+    border: 1px solid #ffff99;
+}
+.frieght-forwarding, .wiredhousing{
+    float: right;
+}
+.image-frieght-forwarding, .image-wiredhousing{
+    float: left;
+}
+/*footer image*/
+.footer-image{
+    margin-top: 30px;
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+.backgroundImage-footer{
+    position: absolute;
+    width: 100%;
+    background-image: url("/web-comp/wharehouse.jpg");
+    height: 100%;
+    /*filter: blur(2px);*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.footer-description{
+    position: absolute;
+    top: 300px;
+}
+.footer-description p{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.btnFooter{
+    position: absolute;
+    /*top: 220px;*/
+}
+.follow-us{
+    margin: 40px;
+    padding-bottom: 150px;
+}
+.follow-us h3{
+    font-size: 30px;
+    text-align: center;
+    color: #ffcc00;
+}
+/*reponsive social button for phone type*/
+@media screen and (max-width: 415px) {
+    .follow-us{
+        height: 100px;
+    }
+    .socialButton {
+        font-size: 35px;
+    }
+    .fa{
+        margin: 5px;
+        font-size: 10px;
+    }
+    .menu-footer a{
+        font-size: 17px;
+        margin: 10px;
+    }
+}
+/*reponsive social button for ipad pro and computer*/
+@media screen and (min-width: 768px) {
+    .follow-us{
+        height: 100px;
+    }
+    .socialButton {
+        font-size: 50px;
+    }
+    .fa{
+        margin: 15px;
+        font-size: 40px;
+    }
+    .menu-footer a{
+        font-size: 17px;
+        margin: 25px;
+    }
+}
+.socialButton{
+    text-align: center;
+}
+.fa {
+    color: #02add8;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+.footer{
+    margin-top: -29px;
+    background-color: #ffcc00;
+}
+.menu-footer{
+    /*height: 100px;*/
+    text-align: center;
+    padding-bottom: 15px;
+}
+.menu-footer a{
+    line-height: 70px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #404040;
+}
+.menu-footer a:hover{
+    color: #a3c2c2;
+}
+.copyRight{
+    /*background-color:  #ffd11a;*/
+    height: 40px;
+    line-height: 40px;
+
+}
+.copyRight p{
+    font-size: 10px;
+    color: #404040;
+    text-align: center;
+}
+
+/*News Page Design*/
+.newAndEvent h2{
+    color:#ffcc00 ;
+    text-align: center;
+}
+.newAndEvent hr{
+    border: 1px solid #ffcc00 ;
+    width: 150px;
+    text-align: center;
+}
+@media screen and (max-width: 415px){
+    .newAndEvent{
+        margin-top: 50px;
+    }
+    .jumbotron{
+        margin-bottom: 0;
+    }
+    .newsDescription{
+        left: 30%;
+        padding: 10px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .newAndEvent{
+        margin-top: 90px;
+    }
+    .jumbotron{
+        margin-bottom: -30px;
+    }
+    .newsPicture img{
+        height: 550px;
+    }
+    .newsDescription{
+        left:45%;
+        padding: 20px;
+    }
+}
+.headline h3{
+    color: #ffcc00 ;
+}
+.newsPicture {
+    position: relative;
+}
+.newsDescription {
+    position: absolute;
+    top: 70%;
+    /*left: 45%;*/
+    color: white;
+    background-color: rgba(0,0,0,.5);
+}
+
+/*design page quote request*/
